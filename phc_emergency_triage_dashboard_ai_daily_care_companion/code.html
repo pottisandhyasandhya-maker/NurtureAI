@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { 'colors': { 'tertiary-container': '#00ae9d', 'on-secondary-fixed-variant': '#2f2ebe', 'surface-bright': '#faf8ff', 'on-error-container': '#93000a', 'outline': '#6e7881', 'secondary': '#4648d4', 'on-surface': '#131b2e', 'on-primary-container': '#003751', 'on-primary': '#ffffff', 'on-secondary-container': '#fffbff', 'inverse-surface': '#283044', 'error': '#ba1a1a', 'primary-fixed': '#c9e6ff', 'on-background': '#131b2e', 'on-tertiary': '#ffffff', 'on-primary-fixed-variant': '#004c6e', 'on-surface-variant': '#3e4850', 'primary-container': '#0ea5e9', 'secondary-fixed-dim': '#c0c1ff', 'secondary-fixed': '#e1e0ff', 'on-secondary': '#ffffff', 'outline-variant': '#bec8d2', 'on-tertiary-fixed-variant': '#005048', 'tertiary': '#006b5f', 'on-secondary-fixed': '#07006c', 'primary': '#006591', 'error-container': '#ffdad6', 'surface-container': '#eaedff', 'inverse-primary': '#89ceff', 'secondary-container': '#6063ee', 'on-primary-fixed': '#001e2f', 'background': '#faf8ff', 'surface-container-lowest': '#ffffff', 'on-error': '#ffffff', 'surface-variant': '#dae2fd', 'surface': '#faf8ff', 'on-tertiary-container': '#003a33', 'inverse-on-surface': '#eef0ff', 'surface-container-low': '#f2f3ff', 'surface-container-highest': '#dae2fd', 'on-tertiary-fixed': '#00201c', 'surface-container-high': '#e2e7ff', 'primary-fixed-dim': '#89ceff', 'tertiary-fixed-dim': '#4fdbc8', 'surface-dim': '#d2d9f4', 'surface-tint': '#006591', 'tertiary-fixed': '#71f8e4' }, 'borderRadius': { 'DEFAULT': '1rem', 'lg': '2rem', 'xl': '3rem', 'full': '9999px' }, 'spacing': { 'gutter-mobile': '1rem', 'space-sm': '0.75rem', 'space-lg': '1.5rem', 'margin-tablet': '2rem', 'space-3xl': '4rem', 'space-xl': '2rem', 'gutter-desktop': '2rem', 'space-md': '1rem', 'space-2xs': '0.25rem', 'margin-desktop': '3rem', 'space-2xl': '3rem', 'space-xs': '0.5rem', 'gutter-tablet': '1.5rem', 'margin-mobile': '1rem', 'max-width-content': '1200px' }, 'fontFamily': { 'title-md': ['Plus Jakarta Sans'], 'display-hero': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'body-sm': ['Inter'], 'body-lg': ['Inter'], 'headline-lg': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'display-hero-mobile': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'label-sm': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'body-md': ['Inter'] }, 'fontSize': { 'title-md': ['18px', { 'lineHeight': '24px', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'display-hero': ['56px', { 'lineHeight': '64px', 'letterSpacing': '-0.03em', 'fontWeight': '700' }], 'headline-lg-mobile': ['28px', { 'lineHeight': '36px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'label-lg': ['14px', { 'lineHeight': '20px', 'letterSpacing': '0.01em', 'fontWeight': '600' }], 'body-sm': ['12px', { 'lineHeight': '18px', 'letterSpacing': '0.01em', 'fontWeight': '400' }], 'body-lg': ['16px', { 'lineHeight': '26px', 'letterSpacing': '-0.005em', 'fontWeight': '400' }], 'headline-lg': ['40px', { 'lineHeight': '48px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'label-md': ['12px', { 'lineHeight': '16px', 'letterSpacing': '0.02em', 'fontWeight': '600' }], 'display-hero-mobile': ['36px', { 'lineHeight': '44px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'headline-sm': ['20px', { 'lineHeight': '28px', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'label-sm': ['10px', { 'lineHeight': '14px', 'letterSpacing': '0.04em', 'fontWeight': '700' }], 'headline-md': ['24px', { 'lineHeight': '32px', 'letterSpacing': '-0.015em', 'fontWeight': '600' }], 'body-md': ['14px', { 'lineHeight': '22px', 'letterSpacing': '0em', 'fontWeight': '400' }] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style></head><body class="bg-background font-body-md text-body-md text-on-surface flex flex-col min-h-screen relative selection:bg-primary-fixed selection:text-on-primary-fixed"><div class="fixed inset-0 pointer-events-none z-0 overflow-hidden"><div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl"></div><div class="absolute top-1/3 -right-24 w-80 h-80 rounded-full bg-secondary-fixed/30 blur-3xl"></div><div class="absolute -bottom-20 left-1/4 w-96 h-96 rounded-full bg-tertiary-fixed/20 blur-3xl"></div></div><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs min-w-0 flex-1"><img alt="AI Daily Care Companion Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1WQdT9R2Yh-LIWtW7PcC8Yl99sRQouUpebwIr4DuU1QdHHAruY5dkQ-use9GPkN_Le5If4AEMiD9d-FvaJrTniVHU51AWU9CEaH5bfLg24ab6edSn0NaagdK4_FyTgkp2vafFIFAxJY-MZC4YPtmsJKLj-IJqltZ-tyCBaiEPUwESV2JqvNRIHT4XuIKsC0h5OsqjvUxeLZb6Oyfz5fP9bb1hJwx7jnRVSje4-8uFRDkN0dlBN7uUcK2obl"/><div class="flex flex-col min-w-0"><span class="font-title-md text-title-md text-on-surface truncate leading-tight">AI Daily Care Companion</span><span class="font-label-sm text-label-sm text-primary font-semibold truncate">Ai Agent</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button class="min-h-[44px] px-space-xs py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_2px_6px_rgba(0,0,0,0.04)] flex items-center gap-1 text-on-surface-variant hover:text-on-surface"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-tertiary font-bold">Online</span></button><button class="min-h-[44px] min-w-[44px] px-2 rounded-full bg-surface-container-low flex items-center justify-center text-primary hover:bg-surface-container gap-0.5"><span class="material-symbols-outlined text-[18px]">switch_account</span><span class="font-label-sm text-label-sm hidden sm:inline">Role</span></button><div class="relative flex items-center justify-center min-h-[44px] min-w-[44px]"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-sm ring-2 ring-surface-container-lowest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcpA_gler6QtJH3XoUDr7DkVucW_tuDkmIL4OGEexDmTQXI20RUe9zSwdGwjvoyrjQqJIJXGKCB414oDmb6yeVXosmlwn3cQ8x4O_-QifLLDY2LLgSRMKfainbmywVQXitJKNBAgczyxjReH8moZuL_VD9LofkuXkPDgoCqqkIplmxS2CDqrYmKjpz0WevNG3d9XkS8bChrEcwqM6CqZCsAo5zn8qoutrT3MNQe7mTSzqd9cnx4TbyrA"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface/50 z-10"><div class="flex flex-col w-full px-gutter-mobile space-y-space-md max-w-max-width-content mx-auto">
+<!-- Top Bar / PHC Facility Header -->
+<div class="w-full bg-surface-container-lowest/85 backdrop-blur-md rounded-lg p-space-md shadow-sm">
+<div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary-container/15 flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">local_hospital</span>
+</div>
+<div class="min-w-0">
+<h2 class="font-title-md text-title-md text-on-surface truncate">Metro East Primary Health Center (PHC)</h2>
+<div class="flex items-center gap-2 mt-0.5">
+<span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+              Supabase Realtime Connected
+            </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate hidden xs:inline">• Live Feed</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-space-xs self-start sm:self-auto bg-surface-container-low px-3 py-1.5 rounded-full">
+<div class="w-2 h-2 rounded-full bg-primary"></div>
+<span class="font-label-md text-label-md text-on-surface font-medium truncate">Dr. A. Verma • On Active Triage</span>
+</div>
+</div>
+</div>
+<!-- Incoming Emergency Banner (High Impact Tier 1 SOS) -->
+<section class="relative overflow-hidden rounded-lg bg-gradient-to-br from-error-container via-surface-container-lowest to-surface-container-lowest p-space-md shadow-md">
+<!-- Atmospheric Glow Spot -->
+<div class="absolute -right-8 -top-8 w-44 h-44 bg-error/15 rounded-full blur-2xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col space-y-space-sm">
+<!-- Priority Badge & Title -->
+<div class="flex items-center justify-between gap-2 flex-wrap">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-error text-on-error shadow-sm">
+<span class="material-symbols-outlined text-[18px] animate-bounce">e911_emergency</span>
+<span class="font-label-sm text-label-sm tracking-wider uppercase">Live Incoming SOS Alert — Priority Tier 1</span>
+</div>
+<div class="flex items-center gap-1 text-error font-label-md text-label-md">
+<span class="material-symbols-outlined text-[16px]">timer</span>
+<span>Just now (10:42 AM)</span>
+</div>
+</div>
+<!-- Critical Patient Overview -->
+<div class="bg-surface-container-lowest/90 backdrop-blur-md rounded-DEFAULT p-space-md flex flex-col sm:flex-row gap-space-md items-start sm:items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative flex-shrink-0">
+<img class="w-14 h-14 rounded-full object-cover shadow-sm" data-alt="Warm documentary style medical portrait of an elderly woman named Eleanor Vance, age 68, gentle expression with soft ambient lighting, high realism in clinic setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFUQXnxnXX3EescXmXyRf2EM-xnfbuHUH3s1QfLAWdYMSWVMpWm5HCfWJkuL1P9DMHSw0cGgfDFxFRcqbHKn2BuEcU24uz-Z6HtaIysx-dqws33lTkgaja-ipG2Fxt8K8O4_FZFoE7_7cbTvnIrxHFhFWlsPxnIm7iMFOGNsTTsICopY-chBf5UVqrjPh39yBoBypN6eThufHJVSqU3Br-0-feoHD7Vxihi9qO1pDmfUNfXDruMwkNKA"/>
+<span class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-error text-on-error flex items-center justify-center font-label-sm text-label-sm">
+              !
+            </span>
+</div>
+<div class="min-w-0">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Demo User (Eleanor Vance, 68)</h3>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-body-sm mt-0.5 truncate">
+<span class="material-symbols-outlined text-[16px] text-error flex-shrink-0">location_on</span>
+<span class="truncate">40.7128° N, 74.0060° W (0.8 mi away)</span>
+</div>
+</div>
+</div>
+<div class="flex items-center gap-2 self-stretch sm:self-auto justify-end">
+<div class="px-3 py-1.5 rounded-DEFAULT bg-surface-container-high flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Heart Rate</span>
+<span class="font-title-md text-title-md text-error font-bold flex items-center gap-0.5">
+              118 <span class="text-[11px] font-normal text-on-surface-variant">BPM</span>
+</span>
+</div>
+<div class="px-3 py-1.5 rounded-DEFAULT bg-surface-container-high flex flex-col items-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">SpO2</span>
+<span class="font-title-md text-title-md text-tertiary font-bold flex items-center gap-0.5">
+              93 <span class="text-[11px] font-normal text-on-surface-variant">%</span>
+</span>
+</div>
+</div>
+</div>
+<!-- Vital Medical Context Pill List -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">cardiology</span>
+          Cardiac History
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">medication</span>
+          Prescribed Atorvastatin
+        </span>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">warning</span>
+          Penicillin Allergy
+        </span>
+</div>
+<!-- Action Button Row -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-space-xs pt-space-xs">
+<button class="sm:col-span-1 min-h-[48px] px-4 rounded-full bg-gradient-to-r from-primary-container via-primary to-secondary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md active:scale-95 transition-transform" id="btnDispatch">
+<span class="material-symbols-outlined text-[20px]">local_shipping</span>
+<span class="truncate">Dispatch Field Responder</span>
+</button>
+<button class="min-h-[48px] px-4 rounded-full bg-surface-container-lowest text-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+<span class="truncate">Direct Tele-Bridge</span>
+</button>
+<button class="min-h-[48px] px-4 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[20px]">lock</span>
+<span class="truncate">Emergency Record</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Interactive Map & Realtime Location Anchor -->
+<section class="w-full bg-surface-container-lowest/90 backdrop-blur-md rounded-lg p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">near_me</span>
+<h3 class="font-title-md text-title-md text-on-surface">Incident Telemetry &amp; Geo-Spatial Lock</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant bg-surface-container px-2 py-0.5 rounded-full">Auto-Refreshed</span>
+</div>
+<div class="w-full h-44 rounded-DEFAULT bg-cover bg-center relative overflow-hidden flex items-end p-space-sm shadow-inner" data-location="Lower Manhattan Emergency Medical Response Unit, New York, NY" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAGkedpzZyFKWrP6FHtskVwanW-h4ws-XJWVQwFRoGwdKpNL_1Hlgn4OWmRNqYvgvrm4aRXwdHHSKsZ_-ANG2XKu1Z0wa4i5Z1RSOXTQCFuGwUJ4b2AkPx_mt1B5j7RjcCAsBDTWWLPBymdlzlF0zqw3ouKgHH_xunP1O9NhnQQJ-L5g2HA2rIEIyCFerRTGUI4B4OQ2wPbeuI0OYxaQWFhZKLINDnqHwMIAgtK6t3Caik6PM1XgejInA');">
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-inverse-surface/20 to-transparent pointer-events-none"></div>
+<div class="relative z-10 flex items-center justify-between w-full text-inverse-on-surface">
+<div class="flex items-center gap-2 min-w-0">
+<span class="w-3 h-3 rounded-full bg-error animate-ping"></span>
+<span class="font-label-md text-label-md font-semibold truncate">Target Beacon Locked: Vance Residence</span>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-0.5 rounded-full bg-inverse-surface/60 backdrop-blur-sm">Rapid Corridor Active</span>
+</div>
+</div>
+</section>
+<!-- Telemetry Health Stats (3 High-Impact Cards) -->
+<section class="grid grid-cols-1 sm:grid-cols-3 gap-space-xs">
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm rounded-lg p-space-md shadow-sm flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">ambulance</span>
+</div>
+<div class="min-w-0">
+<span class="font-headline-md text-headline-md text-on-surface block leading-tight">3</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Active Field Ambulances</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm rounded-lg p-space-md shadow-sm flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">assignment_turned_in</span>
+</div>
+<div class="min-w-0">
+<span class="font-headline-md text-headline-md text-on-surface block leading-tight">18</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Outpatient Consults Today</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest/80 backdrop-blur-sm rounded-lg p-space-md shadow-sm flex items-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed flex items-center justify-center text-on-tertiary-fixed flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="min-w-0">
+<span class="font-headline-md text-headline-md text-on-surface block leading-tight">100%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate block">Emergency ACK SLA</span>
+</div>
+</div>
+</section>
+<!-- Active Clinic Patient Triage Queue -->
+<section class="bg-surface-container-lowest/85 backdrop-blur-md rounded-lg p-space-md shadow-sm flex flex-col space-y-space-sm">
+<div class="flex items-center justify-between pb-space-2xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[22px]">format_list_bulleted</span>
+<h3 class="font-title-md text-title-md text-on-surface">Active Clinic Patient Triage Queue</h3>
+</div>
+<span class="px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">3 Active</span>
+</div>
+<!-- Triage Item 1 (Demo User) -->
+<div class="bg-surface-container-low/70 rounded-DEFAULT p-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs transition-all hover:bg-surface-container-low">
+<div class="flex items-center gap-space-xs min-w-0">
+<div class="w-9 h-9 rounded-full bg-error-container text-on-error-container flex items-center justify-center font-bold text-[13px] flex-shrink-0">
+          DV
+        </div>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Demo User (Eleanor Vance)</h4>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-error/15 text-error font-label-sm text-label-sm font-semibold">Tier 1</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Critical Cardiac Distress • Supabase Realtime Stream #2091</p>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start sm:self-auto">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed-variant font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px] animate-spin">sync</span>
+          Ambulance Dispatched • ETA 4 mins
+        </span>
+</div>
+</div>
+<!-- Triage Item 2 (Marcus Sterling) -->
+<div class="bg-surface-container-low/70 rounded-DEFAULT p-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs transition-all hover:bg-surface-container-low">
+<div class="flex items-center gap-space-xs min-w-0">
+<div class="w-9 h-9 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center font-bold text-[13px] flex-shrink-0">
+          MS
+        </div>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Marcus Sterling</h4>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Tier 3</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Hypertension follow-up • Telemetry connected via BLE</p>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start sm:self-auto">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-tertiary/10 text-tertiary font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+          Routine Vitals Checked • Normal
+        </span>
+</div>
+</div>
+<!-- Triage Item 3 (Anita Roy) -->
+<div class="bg-surface-container-low/70 rounded-DEFAULT p-space-sm flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs transition-all hover:bg-surface-container-low">
+<div class="flex items-center gap-space-xs min-w-0">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-bold text-[13px] flex-shrink-0">
+          AR
+        </div>
+<div class="min-w-0">
+<div class="flex items-center gap-2">
+<h4 class="font-title-md text-title-md text-on-surface truncate">Anita Roy</h4>
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">Tier 2</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">Glycemic control update • Fasting Glucose 142 mg/dL</p>
+</div>
+</div>
+<div class="flex items-center gap-2 self-start sm:self-auto">
+<span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant font-label-sm text-label-sm font-medium">
+<span class="material-symbols-outlined text-[14px]">pending</span>
+          Prescription Verification Pending
+        </span>
+</div>
+</div>
+</section>
+<!-- Field Responder Channel & Realtime Feedback Widget -->
+<div class="bg-surface-container-lowest/80 backdrop-blur-md rounded-lg p-space-md shadow-sm flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-xs min-w-0">
+<img class="w-10 h-10 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Portrait of an emergency medical responder paramedic technician in high-visibility healthcare uniform, smiling calmly inside an ambulance cabin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjGJjVijcJkzhm9xSp97X0MdwR_SYkJNR_cLfTOe7lcoZQjPbTQRjch8hJZ2rxP56R9on-wAhRHrav1H9nJh1RoSudC48TPS_lYsbLtEKq95bT6VGBrxED8Yt32X03l4m0G7cvt9d5MZV-QGD29wJkSgWbYyTbIGRAQ5ie787i83JXvhRg3WqdJ-EgJipTBRaGg5VFwcKwj5ynYwKv7yPYFTEpxjU031B6ewXlK6LzwsGySc8Ea039ww"/>
+<div class="min-w-0">
+<span class="font-title-md text-title-md text-on-surface block truncate">Paramedic Crew Unit #4 (K. Myers)</span>
+<span class="font-body-sm text-body-sm text-tertiary block truncate">En route to Vance Residence • 1.2 mi away</span>
+</div>
+</div>
+<button class="min-h-[44px] min-w-[44px] px-3 rounded-full bg-surface-container-low hover:bg-surface-container text-primary flex items-center justify-center gap-1 flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">radio</span>
+<span class="font-label-sm text-label-sm hidden sm:inline">Comms</span>
+</button>
+</div>
+</div>
+<script>
+  (function() {
+    const dispatchBtn = document.getElementById('btnDispatch');
+    if (dispatchBtn) {
+      dispatchBtn.addEventListener('click', function() {
+        const originalText = this.innerHTML;
+        this.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">progress_activity</span><span>Dispatch Confirmed!</span>';
+        this.classList.remove('from-primary-container', 'via-primary', 'to-secondary');
+        this.classList.add('bg-tertiary', 'text-on-tertiary');
+        setTimeout(() => {
+          this.innerHTML = originalText;
+          this.classList.add('from-primary-container', 'via-primary', 'to-secondary');
+          this.classList.remove('bg-tertiary', 'text-on-tertiary');
+        }, 3000);
+      });
+    }
+  })();
+</script></main><aside class="fixed right-gutter-mobile bottom-24 z-50 pointer-events-auto"><button aria-label="Ask AI Companion" class="w-14 h-14 rounded-full bg-gradient-to-tr from-primary-container via-primary to-secondary text-on-primary flex items-center justify-center shadow-[0_10px_25px_-5px_rgba(14,165,233,0.4),0_0_20px_rgba(96,99,238,0.3)] active:scale-95 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-primary-fixed"><span class="material-symbols-outlined text-[28px] animate-pulse">auto_awesome</span></button></aside><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-primary font-bold"><div class="h-16 px-space-xs flex items-center justify-around"><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a aria-current="page" class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center transition-colors flex-1 relative text-primary font-bold" data-path="ai-agent" href="#"><span class="material-symbols-outlined text-[22px] text-primary drop-shadow-[0_0_6px_rgba(14,165,233,0.5)]">psychology</span><span class="font-label-sm text-label-sm mt-0.5">AI Agent</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="routine" href="#"><span class="material-symbols-outlined text-[22px]">calendar_today</span><span class="font-label-sm text-label-sm mt-0.5">Routine</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="health-qr" href="#"><span class="material-symbols-outlined text-[22px]">qr_code_2</span><span class="font-label-sm text-label-sm mt-0.5">Health QR</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="sos" href="#"><div class="px-2 py-0.5 rounded-full bg-error/10 text-error flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">e911_emergency</span></div><span class="font-label-sm text-label-sm mt-0.5 text-error font-bold">SOS</span></a></div></nav></body></html>

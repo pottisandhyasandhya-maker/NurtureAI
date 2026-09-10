@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: 'class', theme: { extend: { 'colors': { 'tertiary-container': '#00ae9d', 'on-secondary-fixed-variant': '#2f2ebe', 'surface-bright': '#faf8ff', 'on-error-container': '#93000a', 'outline': '#6e7881', 'secondary': '#4648d4', 'on-surface': '#131b2e', 'on-primary-container': '#003751', 'on-primary': '#ffffff', 'on-secondary-container': '#fffbff', 'inverse-surface': '#283044', 'error': '#ba1a1a', 'primary-fixed': '#c9e6ff', 'on-background': '#131b2e', 'on-tertiary': '#ffffff', 'on-primary-fixed-variant': '#004c6e', 'on-surface-variant': '#3e4850', 'primary-container': '#0ea5e9', 'secondary-fixed-dim': '#c0c1ff', 'secondary-fixed': '#e1e0ff', 'on-secondary': '#ffffff', 'outline-variant': '#bec8d2', 'on-tertiary-fixed-variant': '#005048', 'tertiary': '#006b5f', 'on-secondary-fixed': '#07006c', 'primary': '#006591', 'error-container': '#ffdad6', 'surface-container': '#eaedff', 'inverse-primary': '#89ceff', 'secondary-container': '#6063ee', 'on-primary-fixed': '#001e2f', 'background': '#faf8ff', 'surface-container-lowest': '#ffffff', 'on-error': '#ffffff', 'surface-variant': '#dae2fd', 'surface': '#faf8ff', 'on-tertiary-container': '#003a33', 'inverse-on-surface': '#eef0ff', 'surface-container-low': '#f2f3ff', 'surface-container-highest': '#dae2fd', 'on-tertiary-fixed': '#00201c', 'surface-container-high': '#e2e7ff', 'primary-fixed-dim': '#89ceff', 'tertiary-fixed-dim': '#4fdbc8', 'surface-dim': '#d2d9f4', 'surface-tint': '#006591', 'tertiary-fixed': '#71f8e4' }, 'borderRadius': { 'DEFAULT': '1rem', 'lg': '2rem', 'xl': '3rem', 'full': '9999px' }, 'spacing': { 'gutter-mobile': '1rem', 'space-sm': '0.75rem', 'space-lg': '1.5rem', 'margin-tablet': '2rem', 'space-3xl': '4rem', 'space-xl': '2rem', 'gutter-desktop': '2rem', 'space-md': '1rem', 'space-2xs': '0.25rem', 'margin-desktop': '3rem', 'space-2xl': '3rem', 'space-xs': '0.5rem', 'gutter-tablet': '1.5rem', 'margin-mobile': '1rem', 'max-width-content': '1200px' }, 'fontFamily': { 'title-md': ['Plus Jakarta Sans'], 'display-hero': ['Plus Jakarta Sans'], 'headline-lg-mobile': ['Plus Jakarta Sans'], 'label-lg': ['Plus Jakarta Sans'], 'body-sm': ['Inter'], 'body-lg': ['Inter'], 'headline-lg': ['Plus Jakarta Sans'], 'label-md': ['Plus Jakarta Sans'], 'display-hero-mobile': ['Plus Jakarta Sans'], 'headline-sm': ['Plus Jakarta Sans'], 'label-sm': ['Plus Jakarta Sans'], 'headline-md': ['Plus Jakarta Sans'], 'body-md': ['Inter'] }, 'fontSize': { 'title-md': ['18px', { 'lineHeight': '24px', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'display-hero': ['56px', { 'lineHeight': '64px', 'letterSpacing': '-0.03em', 'fontWeight': '700' }], 'headline-lg-mobile': ['28px', { 'lineHeight': '36px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'label-lg': ['14px', { 'lineHeight': '20px', 'letterSpacing': '0.01em', 'fontWeight': '600' }], 'body-sm': ['12px', { 'lineHeight': '18px', 'letterSpacing': '0.01em', 'fontWeight': '400' }], 'body-lg': ['16px', { 'lineHeight': '26px', 'letterSpacing': '-0.005em', 'fontWeight': '400' }], 'headline-lg': ['40px', { 'lineHeight': '48px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'label-md': ['12px', { 'lineHeight': '16px', 'letterSpacing': '0.02em', 'fontWeight': '600' }], 'display-hero-mobile': ['36px', { 'lineHeight': '44px', 'letterSpacing': '-0.02em', 'fontWeight': '700' }], 'headline-sm': ['20px', { 'lineHeight': '28px', 'letterSpacing': '-0.01em', 'fontWeight': '600' }], 'label-sm': ['10px', { 'lineHeight': '14px', 'letterSpacing': '0.04em', 'fontWeight': '700' }], 'headline-md': ['24px', { 'lineHeight': '32px', 'letterSpacing': '-0.015em', 'fontWeight': '600' }], 'body-md': ['14px', { 'lineHeight': '22px', 'letterSpacing': '0em', 'fontWeight': '400' }] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style></head><body class="bg-background font-body-md text-body-md text-on-surface flex flex-col min-h-screen relative selection:bg-primary-fixed selection:text-on-primary-fixed"><div class="fixed inset-0 pointer-events-none z-0 overflow-hidden"><div class="absolute -top-32 -left-20 w-96 h-96 rounded-full bg-primary-container/10 blur-3xl"></div><div class="absolute top-1/3 -right-24 w-80 h-80 rounded-full bg-secondary-fixed/30 blur-3xl"></div><div class="absolute -bottom-20 left-1/4 w-96 h-96 rounded-full bg-tertiary-fixed/20 blur-3xl"></div></div><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-xs"><div class="flex items-center gap-space-xs min-w-0 flex-1"><img alt="AI Daily Care Companion Logo" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1WQdT9R2Yh-LIWtW7PcC8Yl99sRQouUpebwIr4DuU1QdHHAruY5dkQ-use9GPkN_Le5If4AEMiD9d-FvaJrTniVHU51AWU9CEaH5bfLg24ab6edSn0NaagdK4_FyTgkp2vafFIFAxJY-MZC4YPtmsJKLj-IJqltZ-tyCBaiEPUwESV2JqvNRIHT4XuIKsC0h5OsqjvUxeLZb6Oyfz5fP9bb1hJwx7jnRVSje4-8uFRDkN0dlBN7uUcK2obl"/><div class="flex flex-col min-w-0"><span class="font-title-md text-title-md text-on-surface truncate leading-tight">AI Daily Care Companion</span><span class="font-label-sm text-label-sm text-primary font-semibold truncate">Ai Agent</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><button class="min-h-[44px] px-space-xs py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md shadow-[0_2px_6px_rgba(0,0,0,0.04)] flex items-center gap-1 text-on-surface-variant hover:text-on-surface"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span><span class="font-label-sm text-label-sm text-tertiary font-bold">Online</span></button><button class="min-h-[44px] min-w-[44px] px-2 rounded-full bg-surface-container-low flex items-center justify-center text-primary hover:bg-surface-container gap-0.5"><span class="material-symbols-outlined text-[18px]">switch_account</span><span class="font-label-sm text-label-sm hidden sm:inline">Role</span></button><div class="relative flex items-center justify-center min-h-[44px] min-w-[44px]"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-sm ring-2 ring-surface-container-lowest" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcpA_gler6QtJH3XoUDr7DkVucW_tuDkmIL4OGEexDmTQXI20RUe9zSwdGwjvoyrjQqJIJXGKCB414oDmb6yeVXosmlwn3cQ8x4O_-QifLLDY2LLgSRMKfainbmywVQXitJKNBAgczyxjReH8moZuL_VD9LofkuXkPDgoCqqkIplmxS2CDqrYmKjpz0WevNG3d9XkS8bChrEcwqM6CqZCsAo5zn8qoutrT3MNQe7mTSzqd9cnx4TbyrA"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface/50 z-10"><div class="flex flex-col w-full px-gutter-mobile space-y-space-md pb-6">
+<!-- Protocol Philosophy Pipeline Badge -->
+<div class="w-full bg-surface-container-low/90 backdrop-blur-md rounded-2xl p-space-xs shadow-sm flex flex-col gap-space-2xs">
+<div class="flex items-center justify-between px-space-xs pt-0.5">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Autonomous Protocol</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active Loop v4.2</span>
+</div>
+<!-- Interactive Horizontal Flow Pipeline -->
+<div class="flex items-center justify-between gap-1 overflow-x-auto py-1 px-space-2xs no-scrollbar">
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-primary/10 text-primary">
+<span class="font-label-sm text-label-sm font-bold">UNDERSTAND</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-primary/10 text-primary">
+<span class="font-label-sm text-label-sm font-bold">INFORM</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-primary-container text-on-primary-container shadow-sm">
+<span class="font-label-sm text-label-sm font-bold">ACT</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed">
+<span class="font-label-sm text-label-sm font-bold">CONNECT</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-tertiary-fixed text-on-tertiary-fixed">
+<span class="font-label-sm text-label-sm font-bold">CONFIRM</span>
+</div>
+<span class="material-symbols-outlined text-outline text-[14px]">arrow_forward</span>
+<div class="flex items-center gap-1 px-2 py-1 rounded-full bg-error-container text-on-error-container">
+<span class="font-label-sm text-label-sm font-bold">ESCALATE</span>
+</div>
+</div>
+</div>
+<!-- Interactive AI Sphere & Dynamic Waveform Module -->
+<div class="relative w-full rounded-3xl bg-gradient-to-b from-surface-container-lowest/90 via-surface-container-low/70 to-surface-container/60 backdrop-blur-xl p-space-md shadow-md flex flex-col items-center justify-center text-center overflow-hidden">
+<!-- Ambient Radiance Orbs -->
+<div class="absolute -top-10 -left-10 w-36 h-36 bg-primary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<div class="absolute -bottom-10 -right-10 w-36 h-36 bg-secondary-container/20 rounded-full blur-2xl pointer-events-none"></div>
+<!-- Active AI Orb -->
+<div class="relative flex items-center justify-center my-space-xs cursor-pointer group" id="hero-ai-orb">
+<div class="absolute w-28 h-28 rounded-full bg-gradient-to-tr from-primary-container via-secondary to-tertiary-container blur-xl opacity-60 animate-pulse"></div>
+<div class="absolute w-24 h-24 rounded-full bg-gradient-to-r from-primary via-secondary-container to-primary-container opacity-40 animate-spin" style="animation-duration: 8s;"></div>
+<div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-primary-fixed via-primary-container to-secondary flex items-center justify-center shadow-[0_0_30px_rgba(14,165,233,0.5)] transform transition-transform duration-300 group-hover:scale-105 active:scale-95">
+<span class="material-symbols-outlined text-on-primary text-[36px] drop-shadow-md">auto_awesome</span>
+</div>
+</div>
+<!-- Status Subhead -->
+<div class="mt-1 flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>
+<p class="font-label-md text-label-md text-on-surface font-semibold">Care Sentinel Active &amp; Listening</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs mt-0.5">Ready to execute routines, book clinic slots, or contact your doctors instantly.</p>
+<!-- Dynamic Audio Waveform Visualizer -->
+<div class="flex items-center justify-center gap-1.5 h-8 mt-space-sm px-space-md py-1 bg-surface-container-lowest/80 backdrop-blur-md rounded-full shadow-inner">
+<span class="w-1 bg-primary rounded-full h-3 animate-pulse" style="animation-delay: 0.1s;"></span>
+<span class="w-1 bg-primary-container rounded-full h-5 animate-pulse" style="animation-delay: 0.3s;"></span>
+<span class="w-1 bg-secondary rounded-full h-7 animate-pulse" style="animation-delay: 0.15s;"></span>
+<span class="w-1 bg-tertiary-container rounded-full h-4 animate-pulse" style="animation-delay: 0.4s;"></span>
+<span class="w-1 bg-secondary-container rounded-full h-6 animate-pulse" style="animation-delay: 0.25s;"></span>
+<span class="w-1 bg-primary rounded-full h-3 animate-pulse" style="animation-delay: 0.05s;"></span>
+<span class="w-1 bg-secondary-fixed-variant rounded-full h-5 animate-pulse" style="animation-delay: 0.35s;"></span>
+</div>
+</div>
+<!-- Interactive Conversation Stream (Action-Oriented Architecture) -->
+<div class="flex flex-col space-y-space-md w-full">
+<!-- Exchange 1: Routine Automation -->
+<div class="flex flex-col space-y-space-xs">
+<!-- User Query -->
+<div class="flex items-end justify-end gap-space-xs self-end max-w-[85%]">
+<div class="bg-primary text-on-primary p-space-sm rounded-2xl rounded-tr-sm shadow-sm">
+<p class="font-body-md text-body-md">Remind me to drink milk at 7 PM.</p>
+</div>
+<img class="w-7 h-7 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Senior person avatar with warm smile and soft lighting, wearing clean indigo knit sweater, pastel portrait style" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7PhPiSfH6i2APkumQ7L1YsblF05JYBcPyhwhhClSeNIkhkTarfgP0zL2Sa_AK7uN5Cc2OKSJwz1QIASaTB8MjIgZwcD_IfjS40pae1QLDb7F0xunm5gjroXeNmZX698eoVE1Nug3VnRD4OG2PNOiWkwqS4aUtxSVMb42s6gMaP5P__nBMXmhU8mgWAsls6qGTCHhAe9Hq3ud4QnC_MD6PuH45pFrIWwQtJ10UEXI67gtpuypfVh5N3A"/>
+</div>
+<!-- AI Response & Action Card -->
+<div class="flex items-start gap-space-xs self-start max-w-[95%]">
+<div class="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary-container flex items-center justify-center text-on-primary shadow-sm flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-[18px]">neurology</span>
+</div>
+<div class="flex flex-col space-y-space-xs flex-1 min-w-0">
+<div class="bg-surface-container-lowest text-on-surface p-space-sm rounded-2xl rounded-tl-sm shadow-sm backdrop-blur-md">
+<p class="font-body-md text-body-md">Done! Your daily evening routine has been updated for 7:00 PM today.</p>
+</div>
+<!-- Embedded Interactive Action Card -->
+<div class="bg-surface-container-low rounded-2xl p-space-sm shadow-sm flex flex-col space-y-space-xs">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-xs min-w-0">
+<div class="w-8 h-8 rounded-xl bg-tertiary-container/20 text-tertiary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md text-on-surface font-bold truncate">Reminder Configured</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Drink Milk (Daily @ 7:00 PM)</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm font-semibold">Active</span>
+</div>
+<!-- Action Controls -->
+<div class="flex items-center gap-space-xs pt-1">
+<button class="flex-1 py-1.5 px-3 rounded-full bg-surface-container-lowest text-on-surface hover:bg-surface-container shadow-xs flex items-center justify-center gap-1 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">edit_calendar</span>
+<span class="font-label-sm text-label-sm font-semibold">Modify Time</span>
+</button>
+<button class="py-1.5 px-3 rounded-full bg-error-container/40 text-error hover:bg-error-container/70 flex items-center justify-center gap-1 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[16px]">undo</span>
+<span class="font-label-sm text-label-sm font-bold">Undo</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Exchange 2: Telephony Agent Workflow -->
+<div class="flex flex-col space-y-space-xs">
+<!-- User Query -->
+<div class="flex items-end justify-end gap-space-xs self-end max-w-[85%]">
+<div class="bg-primary text-on-primary p-space-sm rounded-2xl rounded-tr-sm shadow-sm">
+<p class="font-body-md text-body-md">Call RR Hospital and ask for tomorrow's appointments.</p>
+</div>
+<img class="w-7 h-7 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Close-up portrait of an elderly gentleman with gentle expression, clean daylight, studio photograph" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYGiIFr7pwoYY2fgn0KBaOCeYiGD8sg--ZRWeYwPRmaAMamkRA0dEtHM63jQk99TAfaq508M3--u93OPNbGSCuof9Ou1OMuNnJ927-qyVqAMDK2eowbnO0pilJrXR8LRvTDV2HDPptuxDevLqaR9TG_tfUapROzO5HwyUjmrfPa6GdJCLQ0G5HJNzORzLktRzXj0UOhDt5etUHk93KqKs-haCkZKAtRVlrFnP2-XwTRI3p_W3jnJo1Kg"/>
+</div>
+<!-- AI Response & Telephony Workflow Card -->
+<div class="flex items-start gap-space-xs self-start max-w-[95%]">
+<div class="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary-container flex items-center justify-center text-on-primary shadow-sm flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-[18px]">neurology</span>
+</div>
+<div class="flex flex-col space-y-space-xs flex-1 min-w-0">
+<div class="bg-surface-container-lowest text-on-surface p-space-sm rounded-2xl rounded-tl-sm shadow-sm backdrop-blur-md">
+<p class="font-body-md text-body-md">I have structured the inquiry protocol for General Cardiology OPD at RR Hospital.</p>
+</div>
+<!-- Embedded Telephony Card -->
+<div class="bg-gradient-to-br from-surface-container-lowest to-surface-container-low rounded-2xl p-space-sm shadow-md flex flex-col space-y-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-2xl bg-secondary-container text-on-secondary-container flex items-center justify-center shadow-xs">
+<span class="material-symbols-outlined text-[20px]">phone_in_talk</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold leading-none">AI Calling Agent</h4>
+<span class="font-label-sm text-label-sm text-secondary font-semibold">Autonomous Voice Telephony</span>
+</div>
+</div>
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+</div>
+<div class="bg-surface-container/60 rounded-xl p-space-xs space-y-1">
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Target Facility:</span>
+<span class="text-on-surface font-semibold">RR Memorial Hospital</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Requested Time:</span>
+<span class="text-on-surface font-semibold">Tomorrow (10 AM - 1 PM)</span>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface-variant">Patient Record:</span>
+<span class="text-on-surface font-semibold">John Doe (Cardio Folio #488)</span>
+</div>
+</div>
+<!-- Call Trigger CTAs -->
+<div class="flex items-center gap-space-xs">
+<button class="flex-1 py-2 px-4 rounded-full bg-gradient-to-r from-secondary to-primary-container text-on-primary shadow-sm hover:shadow-md flex items-center justify-center gap-2 active:scale-95 transition-all">
+<span class="material-symbols-outlined text-[18px]">call</span>
+<span class="font-label-md text-label-md font-bold">Start Call Now</span>
+</button>
+<button aria-label="Call details" class="p-2 rounded-full bg-surface-container-high text-on-surface hover:bg-surface-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">settings_voice</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Exchange 3: Informational & Community Support Card -->
+<div class="flex flex-col space-y-space-xs">
+<!-- User Query -->
+<div class="flex items-end justify-end gap-space-xs self-end max-w-[85%]">
+<div class="bg-primary text-on-primary p-space-sm rounded-2xl rounded-tr-sm shadow-sm">
+<p class="font-body-md text-body-md">What is a Primary Health Center?</p>
+</div>
+<img class="w-7 h-7 rounded-full object-cover shadow-sm flex-shrink-0" data-alt="Candid portrait of elderly patient in soft lighting, joyful and relaxed demeanor, neutral background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW8Fjc58v9otrsvEqMF6aZ9hJCf3_rZBdGa-PNO7bghA4sH0n5MmM001MLNpcCzBSqNR9DomiAmhmUmJW8nauGlb-Aj4XGchKlLigAa4rMmI7skj1Ra6CxmsPCD_asXtscQMqUTX1sZi9i23B9Z32Qo3kau5smKUEWjtOLKuijCa_Hk8gO-UUPeHUE7gROY14jVAMJfrmvqVFIAnLcGmdwWHnszWKd0S64--GfO2KhO-kh4aEP2t0oJQ"/>
+</div>
+<!-- AI Response & Informational Card -->
+<div class="flex items-start gap-space-xs self-start max-w-[95%]">
+<div class="w-8 h-8 rounded-full bg-gradient-to-tr from-primary to-secondary-container flex items-center justify-center text-on-primary shadow-sm flex-shrink-0 mt-1">
+<span class="material-symbols-outlined text-[18px]">neurology</span>
+</div>
+<div class="flex flex-col space-y-space-xs flex-1 min-w-0">
+<div class="bg-surface-container-lowest text-on-surface p-space-sm rounded-2xl rounded-tl-sm shadow-sm backdrop-blur-md">
+<p class="font-body-md text-body-md">A Primary Health Center (PHC) is your immediate community healthcare foundation providing outpatient care, essential drugs, and maternal-child health triage.</p>
+</div>
+<!-- Embedded Informational Module with Instant Dispatch -->
+<div class="bg-surface-container-low rounded-2xl p-space-sm shadow-sm space-y-space-xs">
+<div class="relative w-full h-28 rounded-xl overflow-hidden shadow-xs">
+<img class="w-full h-full object-cover" data-alt="Warm and welcoming modern community primary healthcare center clinic with medical staff and clean patient reception, sunny daylight, architectural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpx6qp2D8_YxaOtBi0ctzOpDLeGZ6oUMIiR81Lk-t47Tp9P9fRRNzGUUwc1JoLPi4N5Wj8FhPXQh6rql78WtfrGKMC9xyex7TshzybmJBalZn46jdyXu4c_k-xUC61z-FFSt0ot9HKA4uuQfcFgXnjJaW5XWPINqyGKS-G4LlFV5AELdktC1f8H34tZHYDYMm2LsKqqOIMN4UXupabGWRJJhjvEuwCgV5CUxAHesxRcFRR_cCWgCT3HA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-2.5">
+<span class="font-label-md text-label-md text-inverse-on-surface font-bold">First-Line Rural &amp; Urban Triage</span>
+</div>
+</div>
+<div class="space-y-1 text-on-surface-variant font-body-sm text-body-sm">
+<p>• Immediate diagnosis for fever, vitals check, and minor trauma.</p>
+<p>• Direct tele-link to tertiary specialists at district hospitals.</p>
+</div>
+<!-- Instant Connection Link -->
+<div class="pt-1">
+<button class="w-full py-2 px-3 rounded-full bg-tertiary-fixed text-on-tertiary-fixed hover:bg-tertiary-fixed-dim font-label-md text-label-md font-bold flex items-center justify-center gap-1.5 transition-all shadow-xs active:scale-95">
+<span class="material-symbols-outlined text-[18px]">fmd_good</span>
+<span>Locate Nearest PHC (0.8 mi away)</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Suggested Action Chips Bar -->
+<div class="w-full flex flex-col space-y-1.5 pt-2">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-semibold">Suggested Actions</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">Quick Prompts</span>
+</div>
+<div class="flex gap-2 overflow-x-auto pb-1 no-scrollbar -mx-gutter-mobile px-gutter-mobile">
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest shadow-sm hover:bg-surface-container-low text-on-surface flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[18px] text-primary">water_drop</span>
+<span class="font-label-sm text-label-sm font-medium whitespace-nowrap">Remind me to drink water at 6 PM</span>
+</button>
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest shadow-sm hover:bg-surface-container-low text-on-surface flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[18px] text-secondary">document_scanner</span>
+<span class="font-label-sm text-label-sm font-medium whitespace-nowrap">Analyze this medicine package</span>
+</button>
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest shadow-sm hover:bg-surface-container-low text-on-surface flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[18px] text-tertiary">calendar_add_on</span>
+<span class="font-label-sm text-label-sm font-medium whitespace-nowrap">Book me an appointment</span>
+</button>
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-surface-container-lowest shadow-sm hover:bg-surface-container-low text-on-surface flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[18px] text-primary-container">qr_code_2</span>
+<span class="font-label-sm text-label-sm font-medium whitespace-nowrap">Show my Health QR</span>
+</button>
+<button class="flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-error-container text-on-error-container shadow-sm hover:bg-error-container/80 flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[18px] text-error">emergency</span>
+<span class="font-label-sm text-label-sm font-bold whitespace-nowrap">I need emergency help</span>
+</button>
+</div>
+</div>
+<!-- Dual Input Interface: Persistent Floating Control Console -->
+<div class="sticky bottom-2 w-full z-40 pt-1 pb-1">
+<div class="w-full bg-surface-container-lowest/95 backdrop-blur-2xl rounded-3xl p-2 shadow-[0_12px_36px_rgba(0,0,0,0.1)] flex items-center gap-2">
+<!-- Media/Camera Attachment Trigger -->
+<button aria-label="Upload Rx or Medicine Image" class="w-11 h-11 rounded-full bg-surface-container-low hover:bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-on-surface flex-shrink-0 transition-all active:scale-95">
+<span class="material-symbols-outlined text-[22px]">add_a_photo</span>
+</button>
+<!-- Text Input Field -->
+<div class="flex-1 min-w-0 relative flex items-center">
+<input class="w-full h-11 pl-3.5 pr-8 rounded-full bg-surface-container-low text-on-surface placeholder:text-outline font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-primary-container" placeholder="Speak or ask anything to your agent..." type="text"/>
+<button aria-label="Agent Help" class="absolute right-2.5 text-outline hover:text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px]">keyboard</span>
+</button>
+</div>
+<!-- Dual Mode: Prominent 'Tap to Speak' Hero Microphone -->
+<button class="w-12 h-12 rounded-full bg-gradient-to-tr from-primary via-primary-container to-secondary text-on-primary flex items-center justify-center shadow-[0_4px_16px_rgba(14,165,233,0.4)] hover:shadow-lg active:scale-90 transition-transform flex-shrink-0 relative group" id="tap-to-speak-btn">
+<span class="absolute inset-0 rounded-full bg-primary-container/40 animate-ping pointer-events-none"></span>
+<span class="material-symbols-outlined text-[26px]">mic</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Micro-interaction for Orb and Microphone toggle
+  const orb = document.getElementById('hero-ai-orb');
+  const micBtn = document.getElementById('tap-to-speak-btn');
+
+  if (orb) {
+    orb.addEventListener('click', () => {
+      orb.classList.toggle('scale-110');
+      setTimeout(() => orb.classList.remove('scale-110'), 600);
+    });
+  }
+
+  if (micBtn) {
+    micBtn.addEventListener('click', () => {
+      micBtn.classList.add('ring-4', 'ring-primary-fixed');
+      setTimeout(() => micBtn.classList.remove('ring-4', 'ring-primary-fixed'), 1500);
+    });
+  }
+</script></main><aside class="fixed right-gutter-mobile bottom-24 z-50 pointer-events-auto"><button aria-label="Ask AI Companion" class="w-14 h-14 rounded-full bg-gradient-to-tr from-primary-container via-primary to-secondary text-on-primary flex items-center justify-center shadow-[0_10px_25px_-5px_rgba(14,165,233,0.4),0_0_20px_rgba(96,99,238,0.3)] active:scale-95 transition-transform duration-200 focus:outline-none focus:ring-4 focus:ring-primary-fixed"><span class="material-symbols-outlined text-[28px] animate-pulse">auto_awesome</span></button></aside><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.05)]" data-active-classes="text-primary font-bold"><div class="h-16 px-space-xs flex items-center justify-around"><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm mt-0.5">Home</span></a><a aria-current="page" class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center transition-colors flex-1 relative text-primary font-bold" data-path="ai-agent" href="#"><span class="material-symbols-outlined text-[22px] text-primary drop-shadow-[0_0_6px_rgba(14,165,233,0.5)]">psychology</span><span class="font-label-sm text-label-sm mt-0.5">AI Agent</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="routine" href="#"><span class="material-symbols-outlined text-[22px]">calendar_today</span><span class="font-label-sm text-label-sm mt-0.5">Routine</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="health-qr" href="#"><span class="material-symbols-outlined text-[22px]">qr_code_2</span><span class="font-label-sm text-label-sm mt-0.5">Health QR</span></a><a class="min-h-[44px] min-w-[44px] flex flex-col items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors flex-1" data-path="sos" href="#"><div class="px-2 py-0.5 rounded-full bg-error/10 text-error flex items-center justify-center"><span class="material-symbols-outlined text-[20px]">e911_emergency</span></div><span class="font-label-sm text-label-sm mt-0.5 text-error font-bold">SOS</span></a></div></nav></body></html>
